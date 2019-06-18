@@ -1,0 +1,47 @@
+{
+  "name": "omneo-polymer-build",
+  "version": "1.3.4",
+  "description": "Provides gulp tasks for building omeno format polymer elements",
+  "author": "Jon Wolfe <jonathan.wolfe@siemens.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/mindsphere-mainline/analyticsservices/product-intelligence/polymer/omneo-polymer-build"
+  },
+  "publishConfig": {
+    "registry": "https://captain.rtf.siemens.net/artifactory/api/npm/mindsphere_rnd-dev-npm/"
+  },
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "np": "^4.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "babel-plugin-istanbul": "^5.1.4",
+    "cssnano": "^4.1.10",
+    "fs-extra": "^8.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-change": "^1.0.2",
+    "gulp-flatten": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "node-sass": "^4.12.0",
+    "yargs": "^13.2.4"
+  }
+}
